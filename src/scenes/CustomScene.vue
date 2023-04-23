@@ -13,8 +13,8 @@
       </p>
     </div>
 
-    <div class="d-flex justify-content-center">
-      <button class="ms-3"
+    <div class="d-flex flex-column flex-md-row flex-lg-row justify-content-center align-items-center">
+      <button class="btn btn-primary my-2 mx-md-2"
         v-for="(choice, index) in scene.choices"
         :key="index"
         @click="goToNextScene(choice.nextScene)"
